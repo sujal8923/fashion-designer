@@ -1,0 +1,282 @@
+@media screen and (min-width:901px) and (max-width:1150px) {
+    .a{
+        width: 250px;
+    }
+    body,html{
+        overflow-x: hidden;
+    }
+    .a>.A-L{
+        /* border: 2px solid white; */
+        width: 50%;
+        height: 80%;
+    }
+    .a>.A-L>h4{
+        font-size: 1.4vw;
+    }
+    .container-7-1{
+        /* border: 2px solid white; */
+    }
+    .child-left{
+        /* border: 2px solid black; */
+    }
+    .child-right{
+        /* border: 2px solid black; */
+    }
+    .box-1{
+        /* border: 2px solid black; */
+    }
+    .box-1-right{
+        /* border: 2px solid red; */
+    }
+    .client-1{
+        /* border: 2px solid black; */
+    }
+    .content{
+        overflow-x: hidden;
+    }
+    .girl-clone{
+        /* border: 2px solid white; */
+        width: 100%;
+    }
+    .right{
+        /* border: 30px solid red; */
+    }
+    section{
+        overflow-x: hidden;
+    }
+
+}
+@media screen and (min-width:501px) and  (max-width:900px){
+.container-4{
+    flex-wrap: wrap;
+    height: 500px;
+}
+.container-7{
+    flex-wrap: wrap;
+}
+.container-7-1{
+    /* border: 2px solid white; */
+
+}
+.client{
+    flex-wrap: wrap;
+}
+.client-1{
+    margin: 30px auto;
+}
+.container-6{
+    height: 1000px;
+}
+.container-2{
+    flex-wrap: wrap;
+    height: 700px;
+}
+.container-8{
+    flex-wrap: wrap;
+    height: 900px;
+}
+.content{
+    /* border: 2px solid white; */
+}
+.left{
+    /* border: 2px solid white; */
+    /* gap: 400px; */
+    justify-content: space-evenly;
+}
+.left>p{
+    text-align: center;
+}
+.right{
+    /* border: 2px solid blue; */
+    margin-top: 70px;
+}
+.girl-clone{
+    /* border: 2px solid red; */
+    /* margin: 110px auto; */
+    height:85%;
+    width: 100%;
+}
+
+.content>.left>p{
+    /* padding-left: 100px; */
+    /* margin: 0px 100px; */
+    padding-left: 0px;
+    font-size: 2vw;
+}
+section.content :nth-child(3){
+    width: 20vw;
+    margin: 0px auto;
+}
+.box-1{
+    width: 400px ;
+    /* border: 2px solid black; */
+}
+.box-1-right{
+    width: 350px;
+    /* border: 2px solid black; */
+}
+.box-1-right>h2{
+    /* text-align: center; */
+    margin-left: 5%;
+}
+.box-1-right>h1{
+    text-align: center;
+}
+.box-1-right>p{
+    text-align: center;
+}
+footer{
+    height: 1100px;
+}
+.footer{
+    flex-wrap: wrap;
+    height: 800px;
+}
+.last-fotter{
+    flex-wrap: wrap;
+    height: 270px;
+}
+
+}
+@media screen and (min-width:501px) and (max-width:750px) {
+
+
+    section>.content{
+        flex-direction: column;
+        /* align-items: last baseline; */
+        /* border: 10px solid blue; */
+        height: 1400px;
+    }
+    .content>.left{
+        width: 95%;
+        height: 400px;
+        /* border: 2px solid white; */
+    }
+    .content>.left>h1{
+        /* text-align: center; */
+        margin:  0% 10%;
+        font-size: 9vw;
+    }
+    .content>.left>p{
+        text-align: center;
+        padding: 20px;
+        content: "hello suujal";
+    }
+    .girl-clone{
+        height: 80%;
+        width: 100%;
+    }
+    .content>.right{
+        width: 80%;
+        
+        height: 800px;
+        /* border: 2px solid purple; */
+    }
+   
+    .content>.left>.btn{
+        /* background-color: red; */
+        font-size: 15px;
+        margin: 0px auto;
+        width: 120px;
+        height: 35px;
+    }
+   
+    section.content>.left>p::before{
+        content: "the design is best forever helpfull the designer also a veautifull person";
+    }
+    section{
+        height: 1500px;
+        /* border: 10px solid red; */
+    }
+    .container-3{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .box-1{
+        width: 550px;
+        height: 600px;
+    }
+    .box-1-right{
+        width: 550px;
+    }
+    .container-5{
+        height: 800px;
+        /* border: 2px solid purple; */
+    }
+    .container-5>.child-left{
+        /* border: 2px solid black; */
+        width: 50%;
+    }
+    .container-5>.child-right{
+        /* border: 2px solid black; */
+        width: 50%;
+    }
+    .progress{
+        /* border: 2px solid red; */
+        margin-top: -80px;
+        /* width: 300px; */
+    }
+    .bar-1{
+        /* border: 2px solid black; */
+    }
+    .progress>.bar{
+        /* border: 2px solid blue; */
+    }
+   .progress>.head{
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    gap: 40%;
+   }
+   .first-child{
+    /* border: 2px solid black; */
+    width: 80%;
+   }
+   .second-child{
+    /* border: 2px solid black; */
+    width: 80%;
+   }
+   .box-1-right>button{
+    /* background-color: red; */
+    margin: 0px auto;
+    width: 120px;
+    height: 35px;
+   }
+   .circle{
+    top: 410px;
+    left: 395px;
+   }
+}
+    
+    @media screen and (min-width:501px) and  (max-width:705px){
+        
+        .container-6{
+            height: 1500px;
+        }
+        .container-8{
+            height: 1800px;
+        }
+    }
+    
+
+@media screen and (min-width:501px) and  (max-width:605px){
+    .container-4{
+        height: 810px;
+    }
+    .container-2{
+        height: 1100px;
+    }
+    .container-7{
+        height: 500px;
+    }
+    .container-8{
+        height: 1800px;
+    }
+    footer{
+        height: 1800px;
+    }
+    .footer{
+        height: 1400px;
+    }
+   
+
+}
